@@ -1,0 +1,223 @@
+{
+  "common": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre Nosotros",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contacto"
+  },
+  "header": {
+    "logo": "Logo Placeholder",
+    "tagline": "Artesanía que transforma tu espacio",
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "faq": "Preguntas Frecuentes"
+    },
+    "cta": "Contáctanos",
+    "language": {
+      "en": "EN",
+      "es": "ES"
+    }
+  },
+  "footer": {
+    "about": "Fabricación e instalación de gabinetes de cocina, closets y vanities personalizados en Hialeah Gardens, FL. Materiales premium, acabados de alta calidad.",
+    "quick_links": {
+      "title": "Enlaces Rápidos",
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "faq": "Preguntas Frecuentes"
+    },
+    "services": {
+      "title": "Servicios",
+      "service1": "Gabinetes de Cocina",
+      "service2": "Closets y Vestidores",
+      "service3": "Vanities de Baño"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "(786) 945-5265",
+      "email": "randyortega870317@gmail.com"
+    },
+    "crescendo": "Impulsado por Crescendo Marketing",
+    "copyright": "© {{year}} Elite Custom Cabinets LLC. Todos los derechos reservados.",
+    "copyright_rights": "Todos los derechos reservados."
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Clientes Satisfechos",
+    "subtitle": "Descubre por qué cientos de clientes confían en nuestros servicios cada día."
+  },
+  "floating": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "whatsapp": "WhatsApp"
+  },
+  "home": {
+    "hero": {
+      "title": "Artesanía que transforma tu espacio",
+      "subtitle": "Gabinetes de cocina, closets y vanities personalizados con materiales premium y acabados de alta calidad en Hialeah Gardens, FL.",
+      "cta": "Solicitar Cotización"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Diseñamos y fabricamos muebles personalizados al gusto, tamaño y color que elijas. Materiales Pladeva, MDF de alta calidad y hardware premium.",
+      "cta": "Ver Todos los Servicios"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Descripción placeholder para la sección de FAQs.",
+      "cta": "Ver Todas las Preguntas Frecuentes"
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "subtitle": "Descripción placeholder para la sección de contacto.",
+      "cta": "Contáctanos"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Fabricación e instalación de gabinetes personalizados con materiales premium y acabados de alta calidad.",
+    "cta": "Solicitar Cotización",
+    "kitchen": {
+      "title": "Gabinetes de Cocina",
+      "description": "Diseño, fabricación e instalación de gabinetes de cocina a medida. Desde la gama sencilla en laminado hasta gabinetes laqueados con pinturas de alta calidad. 100% personalizable con iluminación LED y cierre suave."
+    },
+    "closets": {
+      "title": "Closets y Vestidores",
+      "description": "Fabricación de closets y vestidores personalizados optimizando cada espacio disponible. Incluye organizadores para especias, olas y canastas. Diseño modular adaptable a cualquier espacio."
+    },
+    "vanities": {
+      "title": "Vanities de Baño",
+      "description": "Vanities de baño personalizados combinando funcionalidad y estética moderna. Resistencia a la humedad con materiales de calidad, iluminación LED opcional y cierre suave."
+    },
+    "header": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Especialistas en gabinetes de cocina, closets y vanities personalizados en Hialeah Gardens y áreas cercanas de Miami."
+    },
+    "cards": [
+      {
+        "title": "Gabinetes de Cocina",
+        "description": "Diseño personalizado desde laminado sencillo hasta laca de alta gama. Estructura Pladeva, puertas MDF, iluminación LED y cierre suave.",
+        "cta": "Solicitar Cotización"
+      },
+      {
+        "title": "Closets y Vestidores",
+        "description": "Máxima capacidad de almacenamiento con organizadores especiales. Diseño modular adaptable a cualquier espacio de tu hogar.",
+        "cta": "Solicitar Cotización"
+      },
+      {
+        "title": "Vanities de Baño",
+        "description": "Funcionalidad y estética moderna con resistencia a la humedad. Cajones con cierre suave y opciones de iluminación LED.",
+        "cta": "Solicitar Cotización"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Resolvemos tus dudas sobre nuestros servicios de fabricación e instalación de gabinetes.",
+    "items": [
+      {
+        "question": "¿Qué materiales utilizan en la fabricación?",
+        "answer": "Todos nuestros muebles son fabricados a base de Pladeva (Puyooz) y con terminaciones en puertas y gavetas de MDF de alta calidad."
+      },
+      {
+        "question": "¿Qué tipo de hardware incluyen?",
+        "answer": "Contamos con hardware de mucha calidad, brindando a nuestros clientes organizadores para especies, olas y canasta."
+      },
+      {
+        "question": "¿Tienen opciones modernas como iluminación?",
+        "answer": "Sí, incorporamos el toque de modernidad con luces LED, puentes y gavetas con cierre suave."
+      },
+      {
+        "question": "¿Qué servicios ofrecen?",
+        "answer": "Somos especializados en la fabricación e instalación de gabinetes de cocina y closets."
+      },
+      {
+        "question": "¿Cuál es el nivel de calidad de sus trabajos?",
+        "answer": "Somos especialistas en trabajos realizados con un nivel de vigor y terminalización de un 100% de calidad."
+      },
+      {
+        "question": "¿Qué gamas de acabados tienen disponibles?",
+        "answer": "Nuestras gamas van desde la gama sencilla del laminado hasta la complejidad de gabinetes laqueados con pinturas de alta calidad."
+      },
+      {
+        "question": "¿Dónde están ubicados?",
+        "answer": "Estamos ubicados en 9809 NW 80th Ave Suite 9-G, Hialeah Gardens, FL 33016."
+      },
+      {
+        "question": "¿Cuáles son sus horarios de atención?",
+        "answer": "Nuestro horario de atención es de Lunes a Sábado de 9 am a 6 pm."
+      },
+      {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos Cash, Zelle y cheques. Ofrecemos descuentos especiales."
+      },
+      {
+        "question": "¿Cómo puedo contactarlos?",
+        "answer": "Puedes contactarnos por WhatsApp al (786) 945-5265 o por email a randyortega870317@gmail.com."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos listos para transformar tu espacio. Solicita tu cotización gratuita hoy mismo.",
+    "info": {
+      "title": "Información de Contacto",
+      "location_title": "Ubicación",
+      "contact_title": "Teléfono / WhatsApp",
+      "email_title": "Correo Electrónico",
+      "hours_title": "Horario de Atención",
+      "location": "9809 NW 80th Ave, Suite 9-G, Hialeah Gardens, FL 33016",
+      "phone": "(786) 945-5265",
+      "email": "randyortega870317@gmail.com",
+      "hours": "Lunes - Sábado: 9:00 AM - 6:00 PM",
+      "languages": "Inglés, Español"
+    },
+    "form": {
+      "heading": "Envíanos un mensaje",
+      "name": "Nombre Completo",
+      "name_placeholder": "Ingrese su nombre completo",
+      "email": "Correo Electrónico",
+      "email_placeholder": "Ingrese su correo electrónico",
+      "phone": "Teléfono",
+      "phone_placeholder": "Ingrese su número de teléfono",
+      "service": "Tipo de Servicio",
+      "service_placeholder": "Seleccione un servicio",
+      "service_info": "Consulta General",
+      "service_other": "Otro",
+      "message": "Mensaje",
+      "message_placeholder": "Escriba su mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado exitosamente!",
+      "error": "Error al enviar el mensaje. Por favor intente nuevamente."
+    }
+  },
+  "about": {
+    "seo_title": "Sobre Nosotros | Elite Custom Cabinets",
+    "seo_description": "Especialistas en fabricación e instalación de gabinetes de cocina, closets y vanities personalizados en Hialeah Gardens, FL.",
+    "title": "Sobre Nosotros",
+    "description": "Somos una compañía especializada en la fabricación e instalación de gabinetes de cocina, closets y vanities, diseñándolos y elaborándolos al gusto, tamaño y color elegido por nuestros clientes. Somos especialistas en trabajos realizados con un nivel de vigor y terminalización de un 100% de calidad.",
+    "mission_title": "Nuestra Misión",
+    "mission_text": "Diseñar y elaborar gabinetes de cocina, closets y vanities al gusto, tamaño y color elegido por nuestros clientes, con un nivel de vigor y terminalización de un 100% de calidad.",
+    "vision_title": "Nuestra Visión",
+    "vision_text": "Nuestras gamas van desde la gama sencilla del laminado hasta la complejidad de gabinetes laqueados con pinturas de alta calidad.",
+    "values_title": "Nuestros Materiales",
+    "value1_title": "Pladeva (Puyooz)",
+    "value1_text": "Todos nuestros muebles son fabricados a base de Pladeva (Puyooz) y con terminaciones en puertas y gavetas de MDF de alta calidad.",
+    "value2_title": "Hardware Premium",
+    "value2_text": "Contamos con hardware de mucha calidad, brindando a nuestros clientes organizadores para especies, olas y canasta.",
+    "value3_title": "Tecnología LED",
+    "value3_text": "Incorporamos el toque de modernidad con luces LED, puentes y gavetas con cierre suave."
+  }
+}

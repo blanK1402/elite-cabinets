@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #8B5A2B;      /* Madera cálida - Botones, enlaces */
+    --color-primary-hover: #6B4423; /* Madera oscura - Hover */
+    --color-secondary: #2C3E50;    /* Azul grisáceo elegante */
+    --color-accent: #D4A574;       /* Tono madera clara - Acentos */
+    --color-bg-dark: #1A1A1A;      /* Footer, secciones oscuras */
+    --color-bg-surface: #F5F5F0;   /* Tarjetas, superficies - Blanco hueso */
+    --color-bg-light: #FAFAF8;     /* Fondo principal - Casi blanco cálido */
+    --color-text-muted: #6B7280;   /* Texto secundario */
+    --color-border-dark: #2D2D2D;   /* Bordes oscuros */
+  }
+}
