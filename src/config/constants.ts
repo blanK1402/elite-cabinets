@@ -6,12 +6,12 @@
  * contact details, services, and SEO metadata across the entire site.
  */
 
-// Import images for Vite to process
-import logoImage from '@/assets/images/logo.png';
-import heroImage from '@/assets/images/hero-kitchen-cabinets.jpg';
-import service1Image from '@/assets/images/service-1-kitchen.jpg';
-import service2Image from '@/assets/images/service-2-closet.jpg';
-import service3Image from '@/assets/images/service-3-vanity.jpg';
+// Import images for Vite to process (optimized WebP versions)
+import logoImage from '@/assets/images/logo.webp';
+import heroImage from '@/assets/images/hero-kitchen-cabinets.webp';
+import service1Image from '@/assets/images/service-1-kitchen.webp';
+import service2Image from '@/assets/images/service-2-closet.webp';
+import service3Image from '@/assets/images/service-3-vanity.webp';
 
 // ============================================
 // BUSINESS INFORMATION
