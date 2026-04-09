@@ -30,13 +30,13 @@ export const Header: React.FC = () => {
               className="w-full h-full object-cover scale-125"
             />
           </div>
-          <div className="hidden sm:block">
+          <div className="hidden md:block">
             <p className="text-sm font-black text-white leading-tight tracking-tight drop-shadow-sm">{BUSINESS_INFO.NAME}</p>
-            <p className="text-[10px] text-(--color-primary) font-bold uppercase tracking-[0.2em]">{t('header.tagline')}</p>
+            <p className="text-[10px] text-(--color-primary) font-bold uppercase tracking-[0.2em] hidden xl:block">{t('header.tagline')}</p>
           </div>
         </Link>
 
-        <nav className="hidden lg:flex items-center space-x-8">
+        <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
           {menuItems.map((item) => (
             <div
               key={item.path}
@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
             >
               <Link
                 to={item.path}
-                className="text-white/90 hover:text-white hover:bg-white/10 rounded-lg px-3 py-2 transition-all font-semibold text-sm relative"
+                className="text-white/90 hover:text-white hover:bg-white/10 rounded-lg px-2 xl:px-3 py-2 transition-all font-semibold text-sm whitespace-nowrap relative"
                 onClick={() => item.hasDropdown && setIsServicesOpen(!isServicesOpen)}
               >
                 {item.label}
@@ -92,9 +92,18 @@ export const Header: React.FC = () => {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden text-(--color-bg-dark) text-2xl focus:outline-none p-2 rounded-lg hover:bg-(--color-primary)/10 transition-colors"
+            className="lg:hidden text-white text-2xl focus:outline-none p-2 rounded-lg hover:bg-white/20 transition-colors"
+            aria-label={isMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
           >
-            ☰
+            {isMenuOpen ? (
+              <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            ) : (
+              <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            )}
           </button>
         </div>
       </div>

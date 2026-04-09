@@ -115,7 +115,7 @@ export const REVIEWS_WIDGET_ID = 'tTphfPFRGfNi1BaKGo69';
 export const NAV_LINKS = [
   { key: 'home', path: '/' },
   { key: 'services', path: '/services' },
-  { key: 'gallery', path: '/#gallery' },
+  { key: 'gallery', path: '/gallery' },
   { key: 'about', path: '/about' },
   { key: 'faq', path: '/faq' },
   { key: 'contact', path: '/contact' },

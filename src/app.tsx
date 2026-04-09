@@ -8,6 +8,7 @@ import {
   AboutPage,
   ContactPage,
   FAQPage,
+  GalleryPage,
 } from './pages';
 
 function AppContent() {
@@ -17,6 +18,7 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/faq" element={<FAQPage />} />

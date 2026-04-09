@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 interface FAQItem {
   id: string;
@@ -76,15 +77,15 @@ export const FAQCompact: React.FC = () => {
           <p className="text-slate-500 text-sm mb-3">
             {t('faq.more_questions') || '¿No encuentras tu respuesta?'}
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-flex items-center gap-2 text-(--color-primary) font-semibold hover:underline"
           >
             {t('faq.contact_cta') || 'Contáctanos directamente'}
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
