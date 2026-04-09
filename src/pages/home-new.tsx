@@ -2,12 +2,17 @@ import { Layout } from '@/components/layout';
 import { SEOHead } from '@/components/common';
 import {
   HeroSectionNew,
+  TrustBar,
+  BenefitsGrid,
+  ProcessTimeline,
   GalleryGrid,
+  TestimonialsCards,
   FAQCompact,
   ContactSection,
+  StickyCTA,
 } from '@/components/sections';
 
-export default function HomePage() {
+export default function HomePageNew() {
   return (
     <Layout>
       <SEOHead
@@ -16,17 +21,32 @@ export default function HomePage() {
         pathname="/"
       />
 
-      {/* 1. Hero with embedded form */}
+      {/* 1. Trust Bar - Social proof first */}
+      <TrustBar />
+
+      {/* 2. Hero with embedded form */}
       <HeroSectionNew />
 
-      {/* 2. Gallery Mini - Masonry grid */}
+      {/* 3. Benefits Grid - 4 card grid */}
+      <BenefitsGrid />
+
+      {/* 4. Process Timeline - 3 steps */}
+      <ProcessTimeline />
+
+      {/* 5. Gallery Mini - Masonry grid */}
       <GalleryGrid />
 
-      {/* 3. FAQ - Compact */}
+      {/* 6. Testimonials - Card style */}
+      <TestimonialsCards />
+
+      {/* 7. FAQ - Compact with tabs */}
       <FAQCompact />
 
-      {/* 4. Contact with form */}
+      {/* 8. Contact with form */}
       <ContactSection isHomePage={true} />
+
+      {/* 9. Sticky CTA - Always visible */}
+      <StickyCTA />
     </Layout>
   );
 }

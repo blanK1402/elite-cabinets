@@ -6,7 +6,7 @@
  * contact details, services, and SEO metadata across the entire site.
  */
 
-// Import images for Vite to process (optimized WebP versions)
+// Import images for Vite to process
 import logoImage from '@/assets/images/logo.webp';
 import heroImage from '@/assets/images/hero-kitchen-cabinets.webp';
 import service1Image from '@/assets/images/service-1-kitchen.webp';

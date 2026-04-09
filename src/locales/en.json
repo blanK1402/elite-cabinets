@@ -52,10 +52,12 @@
     "copyright": "© {{year}} Elite Custom Cabinets LLC. All rights reserved.",
     "copyright_rights": "All rights reserved."
   },
-  "testimonials": {
-    "badge": "Testimonials",
-    "title": "Satisfied Clients",
-    "subtitle": "Discover why hundreds of clients trust our services every day."
+  "gallery": {
+    "badge": "Our Work",
+    "title": "Completed Projects",
+    "subtitle": "Each project is unique, designed to the specific needs of our clients.",
+    "view": "View project",
+    "cta": "View all services"
   },
   "floating": {
     "facebook": "Facebook",
@@ -75,12 +77,12 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "subtitle": "Placeholder description for FAQ section.",
+      "subtitle": "We answer your questions about materials, services, and our work process.",
       "cta": "See All FAQs"
     },
     "contact": {
       "title": "Get In Touch",
-      "subtitle": "Placeholder description for contact section.",
+      "subtitle": "We're ready to help with your project. Request information or a quote.",
       "cta": "Contact Us"
     }
   },
@@ -123,8 +125,11 @@
     ]
   },
   "faq": {
+    "badge": "FAQ",
     "title": "Frequently Asked Questions",
     "subtitle": "We answer your questions about our cabinet manufacturing and installation services.",
+    "more_questions": "Can't find your answer?",
+    "contact_cta": "Contact us directly",
     "items": [
       {
         "question": "What materials do you use in manufacturing?",
@@ -139,32 +144,12 @@
         "answer": "Yes, we incorporate a touch of modernity with LED lights, bridges, and soft-close drawers."
       },
       {
-        "question": "What services do you offer?",
-        "answer": "We are specialists in the manufacturing and installation of kitchen cabinets and closets."
-      },
-      {
-        "question": "What is the quality level of your work?",
-        "answer": "We are specialists in work carried out with a 100% quality level of vigor and finishing."
-      },
-      {
-        "question": "What finish ranges do you have available?",
-        "answer": "Our ranges go from the simple laminate range to the complexity of lacquered cabinets with high-quality paints."
-      },
-      {
-        "question": "Where are you located?",
-        "answer": "We are located at 9809 NW 80th Ave Suite 9-G, Hialeah Gardens, FL 33016."
-      },
-      {
-        "question": "What are your business hours?",
-        "answer": "Our business hours are Monday to Saturday from 9 am to 6 pm."
-      },
-      {
         "question": "What payment methods do you accept?",
         "answer": "We accept Cash, Zelle, and checks. We offer special discounts."
       },
       {
-        "question": "How can I contact you?",
-        "answer": "You can contact us via WhatsApp at (786) 945-5265 or by email at randyortega870317@gmail.com."
+        "question": "Where are you located and what are your hours?",
+        "answer": "We are located at 9809 NW 80th Ave Suite 9-G, Hialeah Gardens, FL 33016. Our business hours are Monday to Saturday from 9 am to 6 pm."
       }
     ]
   },

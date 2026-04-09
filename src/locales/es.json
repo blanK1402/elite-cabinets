@@ -52,10 +52,34 @@
     "copyright": "© {{year}} Elite Custom Cabinets LLC. Todos los derechos reservados.",
     "copyright_rights": "Todos los derechos reservados."
   },
-  "testimonials": {
-    "badge": "Testimonios",
-    "title": "Clientes Satisfechos",
-    "subtitle": "Descubre por qué cientos de clientes confían en nuestros servicios cada día."
+  "benefits": {
+    "badge": "Por qué elegirnos",
+    "title": "Calidad en cada detalle",
+    "subtitle": "Materiales premium, acabados impecables y diseño personalizado para tu hogar.",
+    "cta": "Saber más",
+    "design": {
+      "title": "Diseño Personalizado",
+      "description": "Al gusto, tamaño y color que elijas. Cada proyecto es único y adaptado a tus necesidades específicas."
+    },
+    "materials": {
+      "title": "Materiales Premium",
+      "description": "Pladeva de alta resistencia y MDF de calidad superior. Acabados duraderos que mantienen su belleza."
+    },
+    "led": {
+      "title": "Tecnología LED",
+      "description": "Iluminación moderna integrada en gabinetes y cajones. Resalta tus espacios con luz ambiental profesional."
+    },
+    "hardware": {
+      "title": "Cierre Suave",
+      "description": "Hardware de calidad superior con cierre suave en puertas y cajones. Silencioso y duradero."
+    }
+  },
+  "gallery": {
+    "badge": "Nuestro trabajo",
+    "title": "Proyectos realizados",
+    "subtitle": "Cada proyecto es único, diseñado a las necesidades específicas de nuestros clientes.",
+    "view": "Ver proyecto",
+    "cta": "Ver todos los servicios"
   },
   "floating": {
     "facebook": "Facebook",
@@ -75,12 +99,12 @@
     },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "subtitle": "Descripción placeholder para la sección de FAQs.",
+      "subtitle": "Resolvemos tus dudas sobre materiales, servicios y proceso de trabajo.",
       "cta": "Ver Todas las Preguntas Frecuentes"
     },
     "contact": {
       "title": "Contáctanos",
-      "subtitle": "Descripción placeholder para la sección de contacto.",
+      "subtitle": "Estamos listos para ayudarte con tu proyecto. Solicita información o una cotización.",
       "cta": "Contáctanos"
     }
   },
@@ -123,8 +147,11 @@
     ]
   },
   "faq": {
+    "badge": "FAQ",
     "title": "Preguntas Frecuentes",
     "subtitle": "Resolvemos tus dudas sobre nuestros servicios de fabricación e instalación de gabinetes.",
+    "more_questions": "¿No encuentras tu respuesta?",
+    "contact_cta": "Contáctanos directamente",
     "items": [
       {
         "question": "¿Qué materiales utilizan en la fabricación?",
@@ -139,32 +166,12 @@
         "answer": "Sí, incorporamos el toque de modernidad con luces LED, puentes y gavetas con cierre suave."
       },
       {
-        "question": "¿Qué servicios ofrecen?",
-        "answer": "Somos especializados en la fabricación e instalación de gabinetes de cocina y closets."
-      },
-      {
-        "question": "¿Cuál es el nivel de calidad de sus trabajos?",
-        "answer": "Somos especialistas en trabajos realizados con un nivel de vigor y terminalización de un 100% de calidad."
-      },
-      {
-        "question": "¿Qué gamas de acabados tienen disponibles?",
-        "answer": "Nuestras gamas van desde la gama sencilla del laminado hasta la complejidad de gabinetes laqueados con pinturas de alta calidad."
-      },
-      {
-        "question": "¿Dónde están ubicados?",
-        "answer": "Estamos ubicados en 9809 NW 80th Ave Suite 9-G, Hialeah Gardens, FL 33016."
-      },
-      {
-        "question": "¿Cuáles son sus horarios de atención?",
-        "answer": "Nuestro horario de atención es de Lunes a Sábado de 9 am a 6 pm."
-      },
-      {
         "question": "¿Qué métodos de pago aceptan?",
         "answer": "Aceptamos Cash, Zelle y cheques. Ofrecemos descuentos especiales."
       },
       {
-        "question": "¿Cómo puedo contactarlos?",
-        "answer": "Puedes contactarnos por WhatsApp al (786) 945-5265 o por email a randyortega870317@gmail.com."
+        "question": "¿Dónde están ubicados y cuál es su horario?",
+        "answer": "Estamos en 9809 NW 80th Ave Suite 9-G, Hialeah Gardens, FL 33016. Atendemos de Lunes a Sábado de 9 am a 6 pm."
       }
     ]
   },
