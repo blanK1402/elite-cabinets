@@ -1,10 +1,19 @@
 {
+  "trust": {
+    "materials": "Trusted Materials",
+    "stats": {
+      "projects": "Completed Projects",
+      "experience": "Years of Experience",
+      "satisfaction": "Satisfied Clients"
+    }
+  },
   "common": {
     "home": "Home",
     "services": "Services",
     "about": "About",
     "faq": "FAQ",
-    "contact": "Contact"
+    "contact": "Contact",
+    "gallery": "Gallery"
   },
   "header": {
     "logo": "Placeholder Logo",
@@ -14,7 +23,8 @@
       "services": "Services",
       "about": "About",
       "contact": "Contact",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "gallery": "Gallery"
     },
     "cta": "Contact Us",
     "language": {
@@ -41,7 +51,8 @@
     "legal": {
       "title": "Legal",
       "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "terms": "Terms of Service",
+      "sitemap": "Sitemap"
     },
     "contact": {
       "title": "Contact",
@@ -49,6 +60,7 @@
       "email": "randyortega870317@gmail.com"
     },
     "crescendo": "Powered by Crescendo Marketing",
+    "marketing_by": "Marketing by {{agency}}",
     "copyright": "© {{year}} Elite Custom Cabinets LLC. All rights reserved.",
     "copyright_rights": "All rights reserved."
   },
@@ -57,7 +69,8 @@
     "title": "Completed Projects",
     "subtitle": "Each project is unique, designed to the specific needs of our clients.",
     "view": "View project",
-    "cta": "View all services"
+    "cta": "View all services",
+    "image_alt": "Custom cabinet project - Elite Custom Cabinets"
   },
   "floating": {
     "facebook": "Facebook",
@@ -66,6 +79,12 @@
   },
   "home": {
     "hero": {
+      "badge": "100% Custom Manufacturing",
+      "checkmarks": {
+        "custom": "100% Custom Design",
+        "premium": "Premium Materials Guaranteed",
+        "install": "Professional Installation Included"
+      },
       "title": "Craftsmanship that transforms your space",
       "subtitle": "Custom kitchen cabinets, closets, and vanities with premium materials and high-quality finishes in Hialeah Gardens, FL.",
       "cta": "Request a Quote"

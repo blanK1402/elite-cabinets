@@ -78,7 +78,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center space-x-4">
           <button
             onClick={toggleLanguage}
-            className="text-sm font-semibold text-(--color-bg-dark) hover:text-(--color-primary) transition-colors px-3 py-1 rounded-lg hover:bg-(--color-primary)/10"
+            className="text-sm font-semibold text-white/90 hover:text-white transition-colors px-3 py-1 rounded-lg hover:bg-white/10"
           >
             {i18n.language === 'es' ? 'EN' : 'ES'}
           </button>

@@ -20,21 +20,21 @@ import img14 from '../../assets/images/Gallery/c6debf05-e115-46a2-90ac-05669a0b2
 import img15 from '../../assets/images/Gallery/image0000.jpeg';
 
 const galleryImages = [
-  { id: 1, src: img1, alt: 'Proyecto de gabinetes personalizado' },
-  { id: 2, src: img2, alt: 'Diseño de cocina a medida' },
-  { id: 3, src: img3, alt: 'Closet organizado personalizado' },
-  { id: 4, src: img4, alt: 'Vanity de baño moderno' },
-  { id: 5, src: img5, alt: 'Gabinetes con iluminación LED' },
-  { id: 6, src: img6, alt: 'Proyecto de carpintería personalizada' },
-  { id: 7, src: img7, alt: 'Cocina con acabados premium' },
-  { id: 8, src: img8, alt: 'Closet walk-in diseñado' },
-  { id: 9, src: img9, alt: 'Detalles de carpintería' },
-  { id: 10, src: img10, alt: 'Muebles a medida' },
-  { id: 11, src: img11, alt: 'Proyecto completado' },
-  { id: 12, src: img12, alt: 'Diseño interior personalizado' },
-  { id: 13, src: img13, alt: 'Gabinetes de calidad' },
-  { id: 14, src: img14, alt: 'Instalación profesional' },
-  { id: 15, src: img15, alt: 'Trabajo finalizado' },
+  { id: 1, src: img1 },
+  { id: 2, src: img2 },
+  { id: 3, src: img3 },
+  { id: 4, src: img4 },
+  { id: 5, src: img5 },
+  { id: 6, src: img6 },
+  { id: 7, src: img7 },
+  { id: 8, src: img8 },
+  { id: 9, src: img9 },
+  { id: 10, src: img10 },
+  { id: 11, src: img11 },
+  { id: 12, src: img12 },
+  { id: 13, src: img13 },
+  { id: 14, src: img14 },
+  { id: 15, src: img15 },
 ];
 
 export const GalleryGrid: React.FC = () => {
@@ -43,7 +43,7 @@ export const GalleryGrid: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
-    <section className="w-full bg-white py-16 md:py-24">
+    <section id="gallery" className="w-full bg-white py-16 md:py-24">
       <div className="max-w-6xl mx-auto px-4 md:px-8">
         {/* Header */}
         <div className="text-center mb-10">
@@ -70,7 +70,7 @@ export const GalleryGrid: React.FC = () => {
             >
               <img
                 src={image.src}
-                alt={image.alt}
+                alt={t('gallery.image_alt')}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 loading="lazy"
               />

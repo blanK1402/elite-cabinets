@@ -1,10 +1,19 @@
 {
+  "trust": {
+    "materials": "Materiales de confianza",
+    "stats": {
+      "projects": "Proyectos Completados",
+      "experience": "Años de Experiencia",
+      "satisfaction": "Clientes Satisfechos"
+    }
+  },
   "common": {
     "home": "Inicio",
     "services": "Servicios",
     "about": "Sobre Nosotros",
     "faq": "Preguntas Frecuentes",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "gallery": "Galería"
   },
   "header": {
     "logo": "Logo Placeholder",
@@ -14,7 +23,8 @@
       "services": "Servicios",
       "about": "Sobre Nosotros",
       "contact": "Contacto",
-      "faq": "Preguntas Frecuentes"
+      "faq": "Preguntas Frecuentes",
+      "gallery": "Galería"
     },
     "cta": "Contáctanos",
     "language": {
@@ -41,7 +51,8 @@
     "legal": {
       "title": "Legal",
       "privacy": "Política de Privacidad",
-      "terms": "Términos de Servicio"
+      "terms": "Términos de Servicio",
+      "sitemap": "Mapa del sitio"
     },
     "contact": {
       "title": "Contacto",
@@ -49,6 +60,7 @@
       "email": "randyortega870317@gmail.com"
     },
     "crescendo": "Impulsado por Crescendo Marketing",
+    "marketing_by": "Marketing por {{agency}}",
     "copyright": "© {{year}} Elite Custom Cabinets LLC. Todos los derechos reservados.",
     "copyright_rights": "Todos los derechos reservados."
   },
@@ -79,7 +91,8 @@
     "title": "Proyectos realizados",
     "subtitle": "Cada proyecto es único, diseñado a las necesidades específicas de nuestros clientes.",
     "view": "Ver proyecto",
-    "cta": "Ver todos los servicios"
+    "cta": "Ver todos los servicios",
+    "image_alt": "Proyecto de gabinetes personalizado - Elite Custom Cabinets"
   },
   "floating": {
     "facebook": "Facebook",
@@ -88,6 +101,12 @@
   },
   "home": {
     "hero": {
+      "badge": "Fabricación 100% Personalizada",
+      "checkmarks": {
+        "custom": "Diseño 100% personalizado",
+        "premium": "Materiales premium garantizados",
+        "install": "Instalación profesional incluida"
+      },
       "title": "Artesanía que transforma tu espacio",
       "subtitle": "Gabinetes de cocina, closets y vanities personalizados con materiales premium y acabados de alta calidad en Hialeah Gardens, FL.",
       "cta": "Solicitar Cotización"

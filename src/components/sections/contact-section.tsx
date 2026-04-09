@@ -3,18 +3,21 @@ import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'react-router-dom';
 import { CONTACT_INFO, APP_SERVICES, getServiceOptions } from '@/config/constants';
 
-const MapWidget: React.FC = () => (
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.1234567890123!2d-80.3264!3d25.8601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDUxJzM2LjQiTiA4MMKwMTknMzUuMCJX!5e0!3m2!1sen!2sus!4v1234567890123"
-    width="100%"
-    height="100%"
-    style={{ border: 0, minHeight: '300px' }}
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    title="Ubicación Elite Custom Cabinets"
-  />
-);
+const MapWidget: React.FC = () => {
+  const { t } = useTranslation();
+  return (
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.1234567890123!2d-80.3264!3d25.8601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDUxJzM2LjQiTiA4MMKwMTknMzUuMCJX!5e0!3m2!1sen!2sus!4v1234567890123"
+      width="100%"
+      height="100%"
+      style={{ border: 0, minHeight: '300px' }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title={t('contact.info.location_title')}
+    />
+  );
+};
 
 export const ContactSection: React.FC<{ isHomePage?: boolean }> = ({ isHomePage = false }) => {
   const { t } = useTranslation();

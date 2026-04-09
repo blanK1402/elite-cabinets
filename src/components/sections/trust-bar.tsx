@@ -1,20 +1,20 @@
 import { useTranslation } from 'react-i18next';
 
-const stats = [
-  { value: '500+', label: 'Proyectos Completados' },
-  { value: '15+', label: 'Años de Experiencia' },
-  { value: '98%', label: 'Clientes Satisfechos' },
-];
-
-const trustLogos = [
-  { name: 'Pladeva', abbr: 'PL' },
-  { name: 'MDF Premium', abbr: 'MD' },
-  { name: 'Hafele', abbr: 'HF' },
-  { name: 'Blum', abbr: 'BL' },
-];
-
 export const TrustBar: React.FC = () => {
   const { t } = useTranslation();
+
+  const stats = [
+    { value: '500+', label: t('trust.stats.projects') },
+    { value: '15+', label: t('trust.stats.experience') },
+    { value: '98%', label: t('trust.stats.satisfaction') },
+  ];
+
+  const trustLogos = [
+    { name: 'Pladeva', abbr: 'PL' },
+    { name: 'MDF Premium', abbr: 'MD' },
+    { name: 'Hafele', abbr: 'HF' },
+    { name: 'Blum', abbr: 'BL' },
+  ];
 
   return (
     <section className="w-full bg-slate-50 border-b border-slate-200">

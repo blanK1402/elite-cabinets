@@ -140,7 +140,7 @@ export const Footer: React.FC = () => {
                 </li>
                 <li>
                   <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-(--color-text-muted) hover:text-(--color-primary) transition-colors text-sm">
-                    Sitemap
+                    {t('footer.legal.sitemap')}
                   </a>
                 </li>
               </ul>
@@ -162,7 +162,7 @@ export const Footer: React.FC = () => {
                  className="h-14 w-14 rounded-full object-cover opacity-70 transition-opacity group-hover:opacity-100"
                />
                <span className="text-xs text-white/40 transition-colors group-hover:text-white/60">
-                Marketing by {AGENCY_NAME}
+                {t('footer.marketing_by', { agency: AGENCY_NAME })}
               </span>
              </a>
            </div>
