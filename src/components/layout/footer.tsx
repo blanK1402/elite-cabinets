@@ -138,6 +138,11 @@ export const Footer: React.FC = () => {
                     {t("footer.legal.terms")}
                   </a>
                 </li>
+                <li>
+                  <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-(--color-text-muted) hover:text-(--color-primary) transition-colors text-sm">
+                    Sitemap
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
