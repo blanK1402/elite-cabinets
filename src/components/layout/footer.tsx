@@ -104,7 +104,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 sm:space-y-3">
               {serviceLinks.map(service => (
                 <li key={service.key}>
-                  <Link to="/services" onClick={handleContactClick} className="text-(--color-text-muted) hover:text-(--color-primary) transition-colors text-sm">
+                  <Link to={service.path} className="text-(--color-text-muted) hover:text-(--color-primary) transition-colors text-sm">
                     {service.label}
                   </Link>
                 </li>
