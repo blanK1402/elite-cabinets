@@ -6,6 +6,13 @@
  * contact details, services, and SEO metadata across the entire site.
  */
 
+// Import images for Vite to process
+import logoImage from '@/assets/images/logo.png';
+import heroImage from '@/assets/images/hero-kitchen-cabinets.jpg';
+import service1Image from '@/assets/images/service-1-kitchen.jpg';
+import service2Image from '@/assets/images/service-2-closet.jpg';
+import service3Image from '@/assets/images/service-3-vanity.jpg';
+
 // ============================================
 // BUSINESS INFORMATION
 // ============================================
@@ -17,9 +24,9 @@ export const BUSINESS_INFO = {
   /** Full business description for SEO and footer */
   DESCRIPTION: 'Fabricación e instalación de gabinetes de cocina, closets y vanities personalizados en Hialeah Gardens, FL. Materiales premium, acabados de alta calidad.',
   /** Business logo path */
-  LOGO: '/src/assets/images/logo.png',
+  LOGO: logoImage,
   /** Hero image for SEO and meta tags */
-  HERO_IMAGE: '/src/assets/images/hero-kitchen-cabinets.jpg',
+  HERO_IMAGE: heroImage,
   /** Website URL (no trailing slash) */
   URL: 'https://elitecustomcabinets.com',
   /** Copyright year auto-updates */
@@ -92,9 +99,9 @@ export interface ServiceConfig {
 }
 
 export const APP_SERVICES: ServiceConfig[] = [
-  { key: 'kitchen', image: '/src/assets/images/service-1-kitchen.jpg' },
-  { key: 'closets', image: '/src/assets/images/service-2-closet.jpg' },
-  { key: 'vanities', image: '/src/assets/images/service-3-vanity.jpg' },
+  { key: 'kitchen', image: service1Image },
+  { key: 'closets', image: service2Image },
+  { key: 'vanities', image: service3Image },
 ] as const;
 
 // ============================================
